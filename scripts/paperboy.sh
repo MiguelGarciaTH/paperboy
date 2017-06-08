@@ -9,7 +9,7 @@ if [ $1 = "build" ]; then
 	mvn clean compile assembly:single
 
 elif [ $1 = "test" ]; then
-	java -cp target/Lazarus-1.0-jar-with-dependencies.jar lazarus.misc.teste $@
+	java -cp target/Paperboy-1-jar-with-dependencies.jar pb.main.Main $@
 
 fi 
 
