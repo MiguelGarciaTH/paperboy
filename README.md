@@ -1,10 +1,10 @@
 
-## compile Paperboy
+### compile Paperboy
 ```
 ./scripts/paperboy.sh build
 ```
 
-## run Paperboy test 
+### run Paperboy test 
 ```
 ./scripts/paperboy.sh test
 ```
