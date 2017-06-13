@@ -8,3 +8,8 @@
 ```
 ./scripts/paperboy.sh test
 ```
+
+### git push
+```
+git push -u paperboy master
+```
