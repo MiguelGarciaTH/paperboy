@@ -15,7 +15,11 @@ public class TwitterJSONParser {
 
     public TwitterJSONParser() {
     }
-
+    /**
+     * Transforms raw tweets (kind of json format) into TwitterMessage
+     * @param rawTweet, text retrieved from the Streamer API
+     * @return TwitterMessage with the relevant fields 
+     */
     public TwitterMessage parse(String rawTweet) {
         TwitterMessage message = new TwitterMessage();
         JSONObject obj = new JSONObject(rawTweet);

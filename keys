@@ -1,0 +1,6 @@
+ Authentication auth = new TwitterAuthenticator()
+                .setConsumerKey("wbk1k9yvhCSDsWbXUcMtBhfw6")
+                .setConsumerSecret("GQcWhUwOLu4Rn8a6tzi1OsoAadzCa8hRV2fpOXAftaE39JJnek")
+                .setSecretToken("YjWKX8z4yvquk8nNeMlRIIiYi3FsfqwyPeR8WfYlhlwCc")
+                .setToken("2408826883-n9yQ7Dnaf8ZaqauqwVIXLhyIlz1UszqdQ6VwaGH")
+                .build();
